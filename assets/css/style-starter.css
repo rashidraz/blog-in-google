@@ -3203,11 +3203,7 @@ h2.hny-food-title {
 .w3l-header-6-main .header-top {
   padding: 30px 0; 
   background: #621055;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030; 
+ 
 }
 
 .w3l-header-6-main .header-hny-block {
@@ -5169,7 +5165,7 @@ h2.hny-food-title {
 }
 
 .w3l-mag-main .mag-post-meta span {
-  color: #555;
+  color: rgb(0, 0, 0);
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
 }
@@ -6413,7 +6409,7 @@ h2.hny-food-title {
 .blog-post-main .text15-list li {
   line-height: 28px;
   margin: 5px 0;
-  color: #555;
+  color: rgb(0, 0, 0);
   list-style: inside;
 }
 

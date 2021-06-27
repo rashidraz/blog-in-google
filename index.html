@@ -28,44 +28,144 @@ Author URL: http://w3layouts.com
         <div class="header-top">
             <div class="container">
                 <!-- /header-top-inn-->
-				
                 <div class="header-inn-top row">
-                    <div class="logo-brand col-md-6 col-9 p-3 pl-5">
-						<p>
-                        <a class="navbar-brand text-primary" href="index.html">
-
-							
-                            <img src="assets/images/logo.png" alt="" title="Webzine" style="max-height:30px;width:100%;" />
+                    <div class="logo-brand col-6">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/review.jpg" alt="" title="royal" style="max-height:30px;width:100%;" />
                         </a>
-						</p>
                     </div>
-                    <nav class="navbar navbar-expand-lg navbar-light col-md-6 col-9">
+                    <div class="menu-overlay-left col-6 ml-auto">
+                        <div class="two-pops d-flex">
+                            <a href="#" class="author-user"><span class="fa fa-user"
+                                    aria-hidden="true"></span></a>
+
+
+                            <!-- overlay-menuv-menu -->
+                            <div class="overlay-menuv-hny">
+                                <input type="checkbox" id="op"></input>
+                                <div class="side-menu-hny">
+                                    <label for="op" class="menuopen">
+                                        <span class="fa fa-bars" aria-hidden="true"></span></label>
+                                </div>
+                                <div class="overlay-menuv overlay-menuv-hugeinc">
+                                    <label for="op" class="menuclose"><span class="fa fa-times"
+                                            aria-hidden="true"></span></label>
+                                    <div class="side-show-content text-left">
+
+                                        <div class="quick-links-side gap-top">
+                                            <h3 class="side-title">About Webzine</h3>
+                                            <p> Lorem ipsum dolor sit amet, adipi scingelit. Vestibulum orci justo,
+                                                vehicula vel sapien sit amet.
+                                            </p>
+
+                                        </div>
+
+                                        <div class="quick-links-side gap-top">
+                                            <h3 class="side-title">Top Authors</h3>
+                                            <ul>
+                                                <li><a href="#">John Smith</a></li>
+                                                <li><a href="#">Jackson</a></li>
+                                                <li><a href="#">Lucas Smith</a></li>
+                                                <li><a href="#">Daniel Doe</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="quick-links-side gap-top">
+                                            <h3 class="side-title">Categories</h3>
+                                            <ul>
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="car.html">Cars</a></li>
+                                                <li><a href="bike.html">Bikes</a></li>
+												<li><a href="mobile.html">Mobiles</a></li>
+												<li><a href="electronic.html">Electronics</a></li>
+												<li><a href="contact.html">Contact</a></li>
+                                                <li><a href="#">Author</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="quick-links-side follow-us gap-top">
+                                            <h3 class="side-title">Follow Us</h3>
+                                            <ul class="social-icons-top">
+                                                <li><a class="facebook" href="#"><span class="fa fa-facebook"
+                                                            aria-hidden="true"></span></a>
+                                                </li>
+                                                <li><a class="twitter" href="#"><span class="fa fa-twitter"
+                                                            aria-hidden="true"></span></a></li>
+                                                <li><a class="google" href="#"><span class="fa fa-google-plus"
+                                                            aria-hidden="true"></span></a>
+                                                </li>
+                                                <li><a class="instagram" href="#"><span class="fa fa-instagram"
+                                                            aria-hidden="true"></span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="search-right">
+
+                                <a href="#search" title="search"><span class="fa fa-search"
+                                        aria-hidden="true"></span></a>
+                                <!-- search popup -->
+
+
+                                <div id="search" class="pop-overlay">
+                                    <div class="popup">
+
+                                        <form action="#" method="post" class="search-box">
+                                            <input type="search" placeholder="Keyword" name="search" required="required"
+                                                autofocus="">
+                                            <button type="submit" class="btn mt-3">Search</button>
+                                        </form>
+
+                                    </div>
+
+                                    <a class="close" href="#">×</a>
+                                </div>
+                                <!-- /search popup -->
+                            </div>
+                        </div>
+                        <!-- overlay-menuv-menu -->
+                    </div>
+                </div>
+                <!-- //header-top-inn-->
+            </div>
+        </div>
+        <header class="header-hny-block">
+            <div class="container">
+                 <!-- /.nav-collapse -->
+                 <nav class="navbar navbar-expand-lg navbar-light">
                       
-                        <button class="navbar-toggler mr-lg-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav mr-lg-auto">
                            
-                                <li class="nav-item ">
-									
-									
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       Home</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="index.html">Home</a>
+                                       
+                                    </div>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="lifestyle.html">Lifestyle</a>
+									<a class="nav-link" href="car.html">Cars</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="food.html">Food</a>
+									<a class="nav-link" href="bike.html">Bikes</a>
 							   </li>
-							   <li class="nav-item">
-                                <a class="nav-link" href="car.html">car</a>
-                           </li>
-
-                               <li class="nav-item">
-							<a class="nav-link" href="mobile.html">mobile</a>
-					      </li>
- <li class="nav-item">
+                               
+                                <li class="nav-item">
+                                    <a class="nav-link" href="mobile.html">Mobiles</a>
+                                </li>
+								<li class="nav-item">
+                                    <a class="nav-link" href="electronic.html">Electronics</a>
+                                </li>
+								<li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact</a>
                                 </li>
                             </ul>
@@ -86,15 +186,6 @@ Author URL: http://w3layouts.com
                                 </div>
                         </div>
                     </nav>
-                </div>
-                <!-- //header-top-inn-->
-            </div>
-		
-        </div>
-        <header class="header-hny-block">
-            <div class="container">
-                 <!-- /.nav-collapse -->
-                
 
                 <!-- /.nav-collapse -->
         </header>
@@ -202,7 +293,7 @@ Author URL: http://w3layouts.com
 										</figcaption>
 									</figure>
 								</div>
-								<h5 class="top-title"><a href="#">Royal Enfield Classic 350 ex-showroom price in Ernakulam starts at ₹ 1.62 Lakh and goes upto ₹ 1.86 Lakh.
+								<h5 class="top-title"><a >Royal Enfield Classic 350 ex-showroom price in Ernakulam starts at ₹ 1.62 Lakh and goes upto ₹ 1.86 Lakh.
 									 The top variant Royal Enfield Classic 350 on road price in Ernakulam is ₹ 2.01 Lakh.
 									</a></h5>	
 
@@ -217,7 +308,7 @@ Author URL: http://w3layouts.com
 							<div class="maghny-gd-1 col-md-6">
 								<div class="maghny-grid">
 									<figure class="effect-lily">
-										<img class="img-fluid" src="assets/images/thar recent.jpeg">
+										<img class="img-fluid" src="assets/images/thar 2.jpg">
 										<figcaption>
 											<div>
 												<h4>mahindra thar 4x4 PRICE IN KERALA <span>STARTS AT 16.96 LAKH</span></h4>
@@ -620,7 +711,7 @@ Author URL: http://w3layouts.com
 								</a>
 								
 								<p class="para my-3">Price in india starts at 10,999 </p>
-								<a href="#" class="read-more btn">Read More</a>
+								<a  class="read-more btn">Read More</a>
 
 							</div>
 
@@ -743,36 +834,25 @@ Author URL: http://w3layouts.com
 					<!--//mag-hny-content-3-->
 					<!--//mag-left-grid-5-->
 					<div class="mag-hny-content my-5">
-						<h3 class="hny-title">Tasty <span>Food</span></h3>
+						<h3 class="hny-title">LUXURY<span> Cars</span></h3>
 						<!--/mag-left-grid-1-->
 						<div class="maghny-grids-inf row">
 							<div class="maghny-gd-1 col-md-6">
 								<div class="maghny-grid mb-3">
-									<a href="#"><img class="img-fluid" src="assets/images/grid14.jpg" alt=""></a>
+									<a href="#"><img class="img-fluid" src="assets/images/Rolls Royce Phantom.jpg" alt=""></a>
 								</div>
-								<h5><a href="#">
-										There are many variations that focuses on presenting</a></h5>
-								<p>Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed.</p>
-								<div class="mag-post-meta"><a href="#"><img src="assets/images/admin.jpg"
-											class="img-fluid rounded-circle admin-img admin-img1" alt=""></a> <span
-										class="meta-author"><span>By&nbsp;</span><a href="#" class="author-name">John
-											Brain</a> </span>
-									<span class="author-date">Jan 5, 2020</span>
-								</div>
+								<h5><a >
+									Rolls Royce Phantom </a></h5>
+								
+								
 							</div>
 							<div class="maghny-gd-1 col-md-6">
 								<div class="maghny-grid mb-3">
-									<a href="#"><img class="img-fluid" src="assets/images/grid15.jpg" alt=""></a>
+									<a href="#"><img class="img-fluid" src="assets/images/Volvo XC90.jpg" alt=""></a>
 								</div>
-								<h5><a href="#">
-										There are many variations that focuses on presenting</a></h5>
-								<p>Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed.</p>
-								<div class="mag-post-meta"><a href="#"><img src="assets/images/admin.jpg"
-											class="img-fluid rounded-circle admin-img admin-img1" alt=""></a><span
-										class="meta-author"><span>By&nbsp;</span><a href="#" class="author-name"> John
-											Brain</a> </span>
-									<span class="author-date">Jan 5, 2020</span>
-								</div>
+								<h5><a >
+									Volvo XC90</a></h5>
+								
 							</div>
 						</div>
 					</div>
@@ -784,7 +864,7 @@ Author URL: http://w3layouts.com
 						<div class="mag-small-post my-lg-3">
 							<div class="social-media-icons row">
 								<div class="grid-social-box col-lg-3 col-sm-6">
-									<a href="#" class="sub-facebook"><span class="fa fa-facebook"
+									<a  class="sub-facebook"><span class="fa fa-facebook"
 											aria-hidden="true"></span>
 										<div class="soc-info">
 											<span class="sub_social_info sub_social_info_counter">14,507</span>
@@ -794,7 +874,7 @@ Author URL: http://w3layouts.com
 									</a>
 								</div>
 								<div class="grid-social-box col-lg-3 col-sm-6 ">
-									<a href="#" class="sub-facebook twitter"><span class="fa fa-twitter"
+									<a  class="sub-facebook twitter"><span class="fa fa-twitter"
 											aria-hidden="true"></span>
 										<div class="soc-info">
 											<span class="sub_social_info sub_social_info_counter">14,507</span>
@@ -803,7 +883,7 @@ Author URL: http://w3layouts.com
 									</a>
 								</div>
 								<div class="grid-social-box col-lg-3 col-sm-6 ">
-									<a href="#" class="sub-facebook google"><span class="fa fa-google"
+									<a  class="sub-facebook google"><span class="fa fa-google"
 											aria-hidden="true"></span>
 										<div class="soc-info">
 											<span class="sub_social_info sub_social_info_counter">14,507</span>
@@ -814,7 +894,7 @@ Author URL: http://w3layouts.com
 
 								</div>
 								<div class="grid-social-box col-lg-3 col-sm-6 ">
-									<a href="#" class="sub-facebook dribble"><span class="fa fa-dribbble"
+									<a  class="sub-facebook dribble"><span class="fa fa-dribbble"
 											aria-hidden="true"></span>
 										<div class="soc-info">
 											<span class="sub_social_info sub_social_info_counter">14,507</span>
@@ -829,36 +909,24 @@ Author URL: http://w3layouts.com
 					<!--//social-->
 					<!--/health-->
 					<div class="mag-hny-content my-5">
-						<h3 class="hny-title">Be <span>Health</span></h3>
+						<h3 class="hny-title">Recent <span>Speakers</span></h3>
 						<!--/mag-left-grid-1-->
 						<div class="maghny-grids-inf row">
 							<div class="maghny-gd-1 col-md-6">
 								<div class="maghny-grid mb-3">
-									<a href="#"><img class="img-fluid" src="assets/images/grid18.jpg" alt=""></a>
+									<a href="#"><img class="img-fluid" src="assets/images/Logitech Home Speaker System.jpg" alt=""></a>
 								</div>
-								<h5><a href="#">
-										There are many variations that focuses on presenting</a></h5>
-								<p>Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed.</p>
-								<div class="mag-post-meta"><a href="#"><img src="assets/images/admin.jpg"
-											class="img-fluid rounded-circle admin-img admin-img1" alt=""></a> <span
-										class="meta-author"><span>By&nbsp;</span><a href="#" class="author-name">John
-											Brain</a> </span>
-									<span class="author-date">Jan 5, 2020</span>
-								</div>
+								<h5><a >
+									Logitech Home Speaker System</a></h5>
+								
 							</div>
 							<div class="maghny-gd-1 col-md-6">
 								<div class="maghny-grid mb-3">
-									<a href="#"><img class="img-fluid" src="assets/images/grid19.jpg" alt=""></a>
+									<a href="#"><img class="img-fluid" src="assets/images/Sony All in One .jpg" alt=""></a>
 								</div>
-								<h5><a href="#">
-										There are many variations that focuses on presenting</a></h5>
-								<p>Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed.</p>
-								<div class="mag-post-meta"><a href="#"><img src="assets/images/admin.jpg"
-											class="img-fluid rounded-circle admin-img admin-img1" alt=""></a><span
-										class="meta-author"><span>By&nbsp;</span><a href="#" class="author-name"> John
-											Brain</a> </span>
-									<span class="author-date">Jan 5, 2020</span>
-								</div>
+								<h5><a >
+									Sony All in One Stylish Micro Music Stereo System</a></h5>
+								
 							</div>
 						</div>
 					</div>
@@ -874,7 +942,7 @@ Author URL: http://w3layouts.com
 										<div class="gallery-grid">
 											<div class="content">
 												<div class="content-overlay"></div>
-												<img src="assets/images/grid1.jpg" class="image-two img-fluid">
+												<img src="assets/images/insta1.jpg" class="image-two img-fluid">
 
 											</div>
 										</div>
@@ -886,7 +954,7 @@ Author URL: http://w3layouts.com
 										<div class="gallery-grid">
 											<div class="content">
 												<div class="content-overlay"></div>
-												<img src="assets/images/grid2.jpg" class="image-two img-fluid">
+												<img src="assets/images/insta2.jpg" class="image-two img-fluid">
 
 											</div>
 										</div>
@@ -898,7 +966,7 @@ Author URL: http://w3layouts.com
 										<div class="gallery-grid">
 											<div class="content">
 												<div class="content-overlay"></div>
-												<img src="assets/images/grid3.jpg" class="image-two img-fluid">
+												<img src="assets/images/insta3.jpg" class="image-two img-fluid">
 
 											</div>
 										</div>
@@ -910,7 +978,7 @@ Author URL: http://w3layouts.com
 										<div class="gallery-grid">
 											<div class="content">
 												<div class="content-overlay"></div>
-												<img src="assets/images/grid6.jpg" class="image-two img-fluid">
+												<img src="assets/images/insta4.jpg" class="image-two img-fluid">
 
 											</div>
 										</div>
@@ -922,7 +990,7 @@ Author URL: http://w3layouts.com
 										<div class="gallery-grid">
 											<div class="content">
 												<div class="content-overlay"></div>
-												<img src="assets/images/grid7.jpg" class="image-two img-fluid">
+												<img src="assets/images/insta5.jpg" class="image-two img-fluid">
 
 											</div>
 										</div>
@@ -934,7 +1002,7 @@ Author URL: http://w3layouts.com
 										<div class="gallery-grid">
 											<div class="content">
 												<div class="content-overlay"></div>
-												<img src="assets/images/grid8.jpg" class="image-two img-fluid">
+												<img src="assets/images/insta6.jpg" class="image-two img-fluid">
 
 											</div>
 										</div>
@@ -946,7 +1014,7 @@ Author URL: http://w3layouts.com
 										<div class="gallery-grid">
 											<div class="content">
 												<div class="content-overlay"></div>
-												<img src="assets/images/grid1.jpg" class="image-two img-fluid">
+												<img src="assets/images/insta7.jpg" class="image-two img-fluid">
 
 											</div>
 										</div>
@@ -958,7 +1026,7 @@ Author URL: http://w3layouts.com
 										<div class="gallery-grid">
 											<div class="content">
 												<div class="content-overlay"></div>
-												<img src="assets/images/grid3.jpg" class="image-two img-fluid">
+												<img src="assets/images/insta8.jpg" class="image-two img-fluid">
 
 											</div>
 										</div>
@@ -970,7 +1038,7 @@ Author URL: http://w3layouts.com
 										<div class="gallery-grid">
 											<div class="content">
 												<div class="content-overlay"></div>
-												<img src="assets/images/grid2.jpg" class="image-two img-fluid">
+												<img src="assets/images/insta9.jpg" class="image-two img-fluid">
 
 											</div>
 										</div>
@@ -990,15 +1058,15 @@ Author URL: http://w3layouts.com
 							<div class="mag-small-post">
 								<div class="post-item-grid row mb-4">
 									<div class="mag-post-thumb col-4">
-										<a href="#"><img src="assets/images/m1.jpg" class="img-fluid" alt=""></a>
+										<a href="#"><img src="assets/images/ktm rc 200.jpg" class="img-fluid" alt=""></a>
 
 									</div>
 									<div class="mag-post-details col-8">
 										<h4 class="mag-post-title">
-											<a href="#">Group of women dancing on stage</a> </h4>
+											<a >ktm rc 200</a> </h4>
 
 										<div class="mag-post-meta"><span class="meta-author"><span>By&nbsp;</span><a
-													href="#" class="author-name">John Brain</a> </span>
+													 class="author-name">Royal Review</a> </span>
 											<span class="author-date">Jan 5, 2020</span>
 										</div>
 									</div>
@@ -1008,17 +1076,17 @@ Author URL: http://w3layouts.com
 
 								<div class="post-item-grid row mb-4">
 									<div class="mag-post-thumb col-4">
-										<a href="#"><img src="assets/images/m2.jpg" class="img-fluid" alt=""></a>
+										<a href="#"><img src="assets/images/Apache RTR 160.jpg" class="img-fluid" alt=""></a>
 
 									</div>
 									<div class="mag-post-details col-8">
 										<h4 class="mag-post-title">
-											<a href="#">Photo of man wearing astronaut suit hanging near cameras</a>
+											<a >Apache RTR 160 bs6</a>
 										</h4>
 
 										<div class="mag-post-meta"><span class="meta-author"><span>By&nbsp;</span><a
-													href="#" class="author-name">John Brain</a> </span>
-											<span class="author-date">Jan 5, 2020</span>
+													 class="author-name">Royal Review</a> </span>
+											<span class="author-date">may 5, 2020</span>
 										</div>
 									</div>
 								</div>
@@ -1027,17 +1095,17 @@ Author URL: http://w3layouts.com
 
 								<div class="post-item-grid row mb-4">
 									<div class="mag-post-thumb col-4">
-										<a href="#"><img src="assets/images/m3.jpg" class="img-fluid" alt=""></a>
+										<a href="#"><img src="assets/images/maruti swift.jpg" class="img-fluid" alt=""></a>
 
 									</div>
 									<div class="mag-post-details col-8">
 										<h4 class="mag-post-title">
-											<a href="#">Pancake with chocolate syrup on ceramic plate</a> </h4>
+											<a >Maruti Swift</a> </h4>
 
 
 										<div class="mag-post-meta"><span class="meta-author"><span>By&nbsp;</span><a
-													href="#" class="author-name">John Brain</a> </span>
-											<span class="author-date">Jan 5, 2020</span>
+													href="#" class="author-name">Royal Review</a> </span>
+											<span class="author-date">June 5, 2020</span>
 										</div>
 									</div>
 								</div>
@@ -1046,19 +1114,19 @@ Author URL: http://w3layouts.com
 
 								<div class="post-item-grid row mb-4">
 									<div class="mag-post-thumb col-4">
-										<a href="#"><img src="assets/images/m4.jpg" class="img-fluid" alt=""></a>
+										<a href="#"><img src="assets/images/Audi.jpg" class="img-fluid" alt=""></a>
 
 									</div>
 									<div class="mag-post-details col-8">
 										<h4 class="mag-post-title">
-											<a href="#">White and pink petaled flowers on metal fence near
-												concrete</a>
+											<a >Audi
+												</a>
 										</h4>
 
 
 										<div class="mag-post-meta"><span class="meta-author"><span>By&nbsp;</span><a
-													href="#" class="author-name">John Brain</a> </span>
-											<span class="author-date">Jan 5, 2020</span>
+													href="#" class="author-name">Royal Review</a> </span>
+											<span class="author-date">Mar 5, 2021</span>
 										</div>
 									</div>
 								</div>
@@ -1073,11 +1141,11 @@ Author URL: http://w3layouts.com
 								<div class="post-item-grid align-items-center row mb-4">
 									<div class="mag-post-thumb col-3 pl-0">
 
-										<a href="#"><img src="assets/images/m11.jpg" class="img-fluid" alt=""></a>
+										<a ><img src="assets/images/car categori.jpg" class="img-fluid" alt=""></a>
 									</div>
 									<div class="mag-post-details col-9">
-										<h4 class="mag-post-cate">
-											<a href="#">Fashion</a> </h4>
+										<h3 class="mag-post-cate">
+											<a >Car</a> </h4>
 
 
 									</div>
@@ -1087,12 +1155,12 @@ Author URL: http://w3layouts.com
 
 								<div class="post-item-grid align-items-center row mb-4">
 									<div class="mag-post-thumb col-3 pl-0">
-										<a href="#"><img src="assets/images/m10.jpg" class="img-fluid" alt=""></a>
+										<a ><img src="assets/images/bike categori.jpg" class="img-fluid" alt=""></a>
 
 									</div>
 									<div class="mag-post-details align-items-center col-9">
 										<h4 class="mag-post-cate">
-											<a href="#">Culture</a>
+											<a >Bike</a>
 										</h4>
 
 									</div>
@@ -1103,23 +1171,23 @@ Author URL: http://w3layouts.com
 								<div class="post-item-grid align-items-center row mb-4">
 									<div class="mag-post-thumb col-3 pl-0">
 
-										<a href="#"><img src="assets/images/m12.jpg" class="img-fluid" alt=""></a>
+										<a ><img src="assets/images/mobile categori.jpg" class="img-fluid" alt=""></a>
 									</div>
 									<div class="mag-post-details col-9">
 										<h4 class="mag-post-cate">
-											<a href="#">LifeStyle</a>
+											<a >Mobile</a>
 										</h4>
 
 									</div>
 								</div>
 								<div class="post-item-grid align-items-center row mb-4">
 									<div class="mag-post-thumb col-3 pl-0">
-										<a href="#"><img src="assets/images/m9.jpg" class="img-fluid" alt=""></a>
+										<a ><img src="assets/images/laptop catogri.jpg" class="img-fluid" alt=""></a>
 
 									</div>
 									<div class="mag-post-details col-9">
 										<h4 class="mag-post-cate">
-											<a href="#">Food</a>
+											<a >Laptop</a>
 										</h4>
 
 
@@ -1130,12 +1198,12 @@ Author URL: http://w3layouts.com
 
 								<div class="post-item-grid align-items-center row mb-4">
 									<div class="mag-post-thumb col-3 pl-0">
-										<a href="#"><img src="assets/images/m13.jpg" class="img-fluid" alt=""></a>
+										<a ><img src="assets/images/smart watch categori.jpg" class="img-fluid" alt=""></a>
 
 									</div>
 									<div class="mag-post-details col-9">
 										<h4 class="mag-post-cate">
-											<a href="#">Business</a>
+											<a >Watches</a>
 										</h4>
 									</div>
 								</div>
@@ -1145,61 +1213,14 @@ Author URL: http://w3layouts.com
 						<div class="side-bar-hny-recent mb-5">
 							<div class="mag-small-post">
 								<div class="mag-add-post">
-									<a href="#"><img src="assets/images/add.jpg" alt=""
+									<a href="https://www.amazon.in/Test-Exclusive_2020_1180-Multi-3GB-Storage/dp/B089MT34QL/ref=sr_1_1?dchild=1&keywords=oneplus+mobile&qid=1622891224&sr=8-1">
+										<img src="assets/images/add phone.jpg" alt=""
 											class="img-fluid"></a>
 								</div>
 							</div>
 						</div>
 
-						<div class="side-bar-hny-recent mb-5">
-							<h4 class="mag-side-title">Latest <span>Videos</span></h4>
-							<div class="mag-small-post">
-								<div class="post-video-grid">
-									<div class="video-content mb-3">
-										<a href="#notify" class="play-button btn"><span class="fa fa-play"
-												aria-hidden="true">
-
-											</span></a>
-
-										<!-- notify-popup-->
-										<div id="notify" class="notify-pop-overlay">
-											<div class="notify-popup">
-												<h5>Watch Our Video</h5>
-												<iframe src="https://player.vimeo.com/video/156953364" frameborder="0"
-													allow="autoplay; fullscreen" allowfullscreen></iframe>
-												<a class="close" href="#coming-s">&times;</a>
-											</div>
-										</div>
-										<!-- //notify-popup -->
-									</div>
-									<h4 class="mag-post-title">
-										<a href="#">A New Report Shows That Fashion Ads Are Still Overwhelmingly
-											White
-											Dresses</a> </h4>
-								</div>
-								<div class="post-video-grid mt-5 mb-lg-5">
-									<div class="video-content video-content2 mb-3">
-										<a href="#notify1" class="play-button btn"><span class="fa fa-play"
-												aria-hidden="true">
-
-											</span></a>
-
-										<!-- notify-popup-->
-										<div id="notify1" class="notify-pop-overlay">
-											<div class="notify-popup">
-												<h5>Watch Our Video</h5>
-												<iframe src="https://player.vimeo.com/video/42638891" frameborder="0"
-													allow="autoplay; fullscreen" allowfullscreen></iframe>
-												<a class="close" href="#coming-s">&times;</a>
-											</div>
-										</div>
-										<!-- //notify-popup -->
-									</div>
-									<h4 class="mag-post-title">
-										<a href="#">Penguins on snow covered gound,Looking Awesome to see</a> </h4>
-								</div>
-							</div>
-						</div>
+						
 						<div class="side-bar-hny-recent mb-5">
 							<h4 class="mag-side-title">Popular <span>Posts</span></h4>
 							<div class="mag-small-post">
@@ -1384,7 +1405,8 @@ Author URL: http://w3layouts.com
 						<div class="side-bar-hny-recent mb-5">
 							<div class="mag-small-post">
 								<div class="mag-add-post">
-									<a href="#"><img src="assets/images/add1.jpg" alt=""
+									<a href="https://www.amazon.in/New-Apple-Watch-GPS-Cellular-40mm/dp/B08J6KZDRS/ref=sr_1_2?crid=1T1QWASVIFWW5&dchild=1&keywords=apple+watch+series+6&qid=1624171705&sprefix=apple+w%2Caps%2C330&sr=8-2">
+										<img src="assets/images/watch add.jpg" alt=""
 											class="img-fluid"></a>
 								</div>
 							</div>
@@ -1394,51 +1416,30 @@ Author URL: http://w3layouts.com
 							<div class="mag-small-post dont-miss-grids-inf">
 								<div class="maghny-gd-1">
 									<div class="maghny-grid mb-3 dont-miss">
-										<a href="#"><img class="img-fluid" src="assets/images/m5.jpg" alt=""></a>
+										<a href="#"><img class="img-fluid" src="assets/images/don't miss 1.jpg" alt=""></a>
 									</div>
-									<h5><a href="#">
-											There are many variations that focuses on presenting</a></h5>
-									<p>Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed.
-									</p>
-									<div class="mag-post-meta"><a href="#"><img src="assets/images/admin.jpg"
-												class="img-fluid rounded-circle admin-img admin-img1" alt=""></a> <span
-											class="meta-author"><span>By&nbsp;</span><a href="#"
-												class="author-name">John
-												Brain</a> </span>
-										<span class="author-date">Jan 5, 2020</span>
-									</div>
+									<h5><a  class="read-more btn">iphone</a>
+									</h5>
+									
+									
 								</div>
 								<div class="maghny-gd-1 my-lg-5">
 									<div class="maghny-grid mb-3 dont-miss">
-										<a href="#"><img class="img-fluid" src="assets/images/m6.jpg" alt=""></a>
+										<a href="#"><img class="img-fluid" src="assets/images/don't miss 2.jpg" alt=""></a>
 									</div>
 									<h5><a href="#">
-											There are many variations that focuses on presenting</a></h5>
-									<p>Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed.
-									</p>
-									<div class="mag-post-meta"><a href="#"><img src="assets/images/admin.jpg"
-												class="img-fluid rounded-circle admin-img admin-img1" alt=""></a><span
-											class="meta-author"><span>By&nbsp;</span><a href="#" class="author-name">
-												John
-												Brain</a> </span>
-										<span class="author-date">Jan 5, 2020</span>
-									</div>
+											Mac</a></h5>
+									
+									
 								</div>
 								<div class="maghny-gd-1">
 									<div class="maghny-grid mb-3 dont-miss">
-										<a href="#"><img class="img-fluid" src="assets/images/m7.jpg" alt=""></a>
+										<a href="#"><img class="img-fluid" src="assets/images/don't miss 3.jpg" alt=""></a>
 									</div>
 									<h5><a href="#">
-											There are many variations that focuses on presenting</a></h5>
-									<p>Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed.
-									</p>
-									<div class="mag-post-meta"><a href="#"><img src="assets/images/admin.jpg"
-												class="img-fluid rounded-circle admin-img admin-img1" alt=""></a><span
-											class="meta-author"><span>By&nbsp;</span><a href="#" class="author-name">
-												John
-												Brain</a> </span>
-										<span class="author-date">Jan 5, 2020</span>
-									</div>
+											Apple Watch</a></h5>
+									
+									
 								</div>
 
 							</div>
@@ -1446,7 +1447,8 @@ Author URL: http://w3layouts.com
 						<div class="side-bar-hny-recent mb-5">
 							<div class="mag-small-post">
 								<div class="mag-add-post">
-									<a href="#"><img src="assets/images/add3.jpg" alt=""
+									<a href="https://www.amazon.in/GoPro-HERO9-Black-Stabilization-HyperSmooth/dp/B08GZMKFBQ/ref=sr_1_1?dchild=1&keywords=Gopro+hero+9+black&qid=1624173856&sr=8-1">
+										<img src="assets/images/GOPRO ADD.jpg" alt=""
 											class="img-fluid"></a>
 								</div>
 							</div>
@@ -1505,10 +1507,11 @@ Author URL: http://w3layouts.com
         <div class="container">
             <div class="footer-top row">
                 <div class="sub-one-left col-lg-4 col-md-6">
-                    <h6>About Webzine</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris.</p>
+                    <h6>About Royal Review</h6>
+                    <p>Royal Review എന്ന Website മലയാളത്തിൽ Review എഴുതുന്ന Web Page ആണ് . ഇതിൽ കാർ, ബൈക്ക്, മൊബൈൽ 
+						ഫോൺ, ലാപ്ടോപ്പ്, വാച്ചുകൾ,കാമറ തുടങ്ങിയ പ്രോഡക്ടകളുടെ റിവ്യൂ മലയാളത്തിൽ അപ്‌ലോഡ് ചെയ്യുന്നു 
+						 .നിങ്ങളുടെ സപ്പോർട്ട് എന്നും ഞങ്ങളെ കൂടെ ഉണ്ടാവുമെന്ന് പ്രതീക്ഷിക്കുന്നു 
+					</p>
                     <div class="columns-2">
                         <ul class="social-footer">
                             <li><a href="#facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
@@ -1524,7 +1527,7 @@ Author URL: http://w3layouts.com
                     </div>
                 </div>
                 <div class="sub-two-right col-lg-4 col-md-6 my-md-0 my-5">
-                    <h6>Editor Pics</h6>
+                    <h6>Most Viewed Blogs</h6>
                     <div class="row editor-pics mb-3">
                         <div class="col-3 item-pic">
                             <img src="assets/images/m4.jpg" class="img-fluid" alt="">
@@ -1574,16 +1577,17 @@ Author URL: http://w3layouts.com
                     <h6>Information</h6>
                     <div class="columns-2 d-flex">
                         <ul class="footer-sub-gd mr-5">
-                            <li><a href="#">Celebrities</a></li>
-                            <li><a href="#">Fashion</a></li>
-                            <li><a href="lifestyle.html">Lifestyle</a></li>
-                            <li><a href="#">Blog Page</a></li>
+                            <li><a href="car.html">Cars</a></li>
+                            <li><a href="bike.html">Bikes</a></li>
+                            <li><a href="mobile.html">Mobiles</a></li>
+                            <li><a href="electronic.html">Electronics</a></li>
+							<li><a href="contact.html">Contact</a></li>
                         </ul>
                         <ul class="footer-sub-gd">
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">Signup</a></li>
-                            <li><a href="#">Author</a></li>
-                            <li><a href="#">Comments</a></li>
+							<li><a >Login</a></li>
+                            <li><a >Signup</a></li>
+                            <li><a >Author</a></li>
+                            <li><a >Comments</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1594,8 +1598,8 @@ Author URL: http://w3layouts.com
         <div class="container">
             <div class="copyright-footer text-center">
 
-                <p>© 2020 Webzine. All rights reserved.| Design by
-					<a href="http://w3layouts.com/" target="_blank">W3layouts</a>
+                <p>© 2021 RoyalReview. All rights reserved.| Design by
+					<a href="https://instagram.com/sketch_stu_dio?utm_medium=copy_link" target="_blank">SketchStudio</a>
                 </p>
             </div>
         </div>
